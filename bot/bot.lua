@@ -125,6 +125,7 @@ function create_config( )
     "groupmanagerfa",
     "plugins",
     "self",
+    "tools2",
 		"tools",
      "fun"
 	},
@@ -132,27 +133,7 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Beyond Self Bot V3.0
-An fun bot based on BDReborn
-
-》https://github.com/BeyondTeam/BDSelf 
-
-》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer & Sponser《
-》@ToOfan ➣ Developer《
-
-》Special thanks to :
-》@kuncen
-》@Vysheng
-》@MrHalix
-》And Beyond Team Members
-
-》Our channel :
-》@BeyondTeam《
-
-》Our website :
-》http://BeyondTeam.ir
+    info_text = [[》@tarcim darknessHC
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
