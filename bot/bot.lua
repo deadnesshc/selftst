@@ -1,5 +1,4 @@
--- #Beyond Self Robot
--- #@BeyondTeam
+
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -75,12 +74,12 @@ end
 function create_self( )
   self = {
     names = {
-    "solid",
-    "سلید",
-    "سولید",
-    "سعید",
-    "saeed",
-    "saeid"
+    "امیر",
+    "amir",
+    "darkness",
+    "دارکنس",
+    "جفر",
+    "jafar"
     },
     answers = {
     "وات؟ :/",
@@ -128,7 +127,7 @@ function create_config( )
 		"tools",
      "fun"
 	},
-    sudo_users = {157059515},
+    sudo_users = {470075020},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
