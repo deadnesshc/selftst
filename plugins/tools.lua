@@ -388,7 +388,7 @@ matches[3] then
      edit_msg(msg.to.id, msg.id, "😐", "md")
    end
 		tdcli.sendDocument(msg.chat_id_, msg.id_,0, 
-1, nil, send_file, '@BeyondTeam', dl_cb, nil)
+1, nil, send_file, '@tarcim', dl_cb, nil)
 	end
 	if matches[1]:lower() == "sendplug" and matches[2] then
 	    local plug = "./plugins/"..matches[2]..".lua"
@@ -398,7 +398,7 @@ matches[3] then
      edit_msg(msg.to.id, msg.id, "😐", "md")
    end
 		tdcli.sendDocument(msg.chat_id_, msg.id_,0, 
-1, nil, plug, '@BeyondTeam', dl_cb, nil)
+1, nil, plug, '@tarcim', dl_cb, nil)
     end
   end
 
