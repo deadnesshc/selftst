@@ -1,22 +1,4 @@
---[[
-################################
-#                              #
-#        Self Plugin           #
-#                              #
-#                              #
-#     by @SoLiD ⇨Saeid⇦       #
-#                              #
-#                              #
-#   Team Channel @BeyondTeam   #
-#	                       #
-#                              #
-#     Update: 2 March 2017     #
-#                              #
-#       Special Thx To         # 
-#     @Exacute for idea        #
-#                              #
-################################
-]]
+
 do
 local function self_names( name )
   for k,v in pairs(_self.names) do
