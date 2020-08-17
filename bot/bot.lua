@@ -122,6 +122,7 @@ function create_config( )
     enabled_plugins = {
     "self-manager",
     "groupmanager",
+    "groupmanagerfa",
     "plugins",
     "self",
 		"tools",
